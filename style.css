@@ -1,0 +1,278 @@
+body {
+    background-color: rgb(228, 225, 225);
+}
+
+.center {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: rgb(112, 119, 126);
+}
+
+.logo h1 {
+    margin-left: 20%;
+    font-family: sans-serif;
+    color: rgb(48, 21, 85);
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.allItem {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 41%;
+    color: rgb(48, 21, 85);
+    width: 50%;
+    font-weight: 100;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.secondpart {
+    display: flex;
+    align-items: center;
+}
+
+.gif1 {
+    height: 550px;
+    width: 550px;
+    cursor: pointer;
+}
+
+.right {
+    width: 90%;
+}
+
+.right h1 {
+    font-size: 58px;
+    margin-left: 0px;
+    color: rgb(4, 4, 90);
+    font-weight: 700;
+}
+
+.hunt {
+    margin-left: 18rem;
+}
+
+.right h3 {
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+
+.hunt1 {
+    margin-left: 18rem;
+}
+
+.btn {
+    background-color: rgb(8, 4, 46);
+    color: aliceblue;
+    margin-left: 16rem;
+    border: none;
+    height: 30px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.thirdpart {
+    margin-top: 50px;
+}
+
+.thirdpart h3 {
+    text-align: center;
+    color: rgb(66, 66, 170);
+    font-size: 22px;
+    font-weight: 150;
+}
+
+.thirdpart h1 {
+    color: rgb(45, 45, 122);
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+}
+
+.image1 {
+    height: 400px;
+    width: 650px;
+}
+
+.gridcontainer {
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    row-gap: 15px;
+    margin-top: 50px;
+    column-gap: 0px;
+}
+
+.grid-item {
+    height: 70px;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(3, 3, 83);
+    font-size: 19px;
+}
+
+.fifthpart {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.fifthpart h2 {
+    color: rgb(77, 77, 133);
+}
+
+.fifthpart h1 {
+    color: rgb(19, 19, 105);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+.card1 {
+    border: solid white;
+    border-bottom: solid green;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.cards img {
+    margin-left: 100px;
+    height: 120px;
+    width: 120px;
+}
+
+.cards h1 {
+    text-align: center;
+    color: rgb(9, 26, 102);
+}
+
+.cards h4 {
+    text-align: center;
+    color: rgb(43, 43, 109);
+    font-weight: 200;
+}
+
+.contecttext {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.contecttext h3 {
+    font-size: 22px;
+    color: rgb(74, 74, 136);
+    font-weight: 500;
+}
+
+.contecttext h1 {
+    color: rgb(7, 27, 112);
+    font-weight: 800;
+}
+
+.text h3 {
+    font-weight: 50;
+    color: rgb(4, 4, 68);
+}
+
+.inputbox {
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 500px;
+}
+
+.inputbox1 {
+    border-radius: 5px;
+    height: 100px;
+    width: 500px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: solid rgb(235, 232, 217);
+    background-color: rgb(191, 196, 212);
+    height: 600px;
+    width: 600px;
+}
+
+.btn1 {
+    margin-top: 3%;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(10, 10, 105);
+    font-size: 25px;
+    color: antiquewhite;
+    border: none;
+}
+
+.header {
+    padding-top: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.bottomheader h1 {
+    text-align: center;
+    color: rgb(9, 26, 102);
+
+}
+
+.bottomheader h3 {
+    text-align: center;
+    color: rgb(106, 106, 180);
+}
+
+.headerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+}
+
+.img1 {
+    height: 40px;
+    width: 40 px;
+}
+
+.img2 {
+    height: 52px;
+    width: 52px;
+}
+
+.img3 {
+    height: 38px;
+    width: 38px;
+}
+
+.img4 {
+    height: 40px;
+    width: 40px;
+    margin: 0.5%;
+    border-radius: 22px;
+}
+
+.img5 {
+    height: 50px;
+    width: 50px;
+}
